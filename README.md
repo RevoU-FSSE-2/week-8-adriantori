@@ -63,9 +63,9 @@ Creates simple financial tracker API using ExpresJS & Typescript, also connects 
 
 | HTTP Request | Body                                                                                                                                                                                                                                                            |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| POST         | {\| <br/>    "id": number,     \|<br/>\| -------------------------- \|<br/>\| <br/>    "type": string,   \|<br/>\| <br/>    "name": string,   \|<br/>\| <br/>    "detail": string, \|<br/>\| <br/>    "amount": number  \|<br/>\| <br/>}                     \| |
-| PUT          | { <br/> "type": string, <br/><br/> "name": string, <br/><br/> "detail": string, <br/><br/> "amount": number<br>}<br/><br/>(data has to be filled in)                                                                                                            |
-| PATCH        | { <br/>  "type": string, <br/><br/> "name": string, <br/><br/> "detail": string, <br/><br/> "amount": number<br>}<br/><br/>(partial data is OK)                                                                                                                 |
+| POST         | { <br/>"id": number,<br/> "type": string, <br/>"name": string, <br/>"detail": string, <br/> "amount": number<br>}                          |
+| PUT          | { <br/> "type": string, <br/>"name": string, <br/>"detail": string, <br/> "amount": number<br>}<br/>(data has to be filled in)|
+| PATCH        | { <br/>  "type": string, <br/>"name": string, <br/>"detail": string, <br/> "amount": number<br>}<br/>(partial data is OK)     |
 
 ### Deploy Link
 
