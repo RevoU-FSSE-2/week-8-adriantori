@@ -14,6 +14,8 @@ Creates simple financial tracker API using ExpresJS & Typescript, also connects 
 
 5. Back-end is deployed at Railways.
 
+6. Authentication is not implemented.
+
 ## Advanced Information - Front-End
 
 1. Click "Add Transaction" button to show Model of Input Data.
@@ -59,17 +61,11 @@ Creates simple financial tracker API using ExpresJS & Typescript, also connects 
 
 ## API Body
 
-| HTTP Request | Body                                                                                                                                                 |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| POST         | { 
-<br/>    "id": number, 
-<br/>    "type": string, 
-<br/>    "name": string, 
-<br/>    "detail": string, 
-<br/>    "amount": number
-<br/>}          |
-| PUT          | { <br/> "type": string, <br/><br/> "name": string, <br/><br/> "detail": string, <br/><br/> "amount": number<br>}<br/><br/>(data has to be filled in) |
-| PATCH        | { <br/>  "type": string, <br/><br/> "name": string, <br/><br/> "detail": string, <br/><br/> "amount": number<br>}<br/><br/>(partial data is OK)      |
+| HTTP Request | Body                                                                                                                                                                                                                                                            |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| POST         | {\| <br/>    "id": number,     \|<br/>\| -------------------------- \|<br/>\| <br/>    "type": string,   \|<br/>\| <br/>    "name": string,   \|<br/>\| <br/>    "detail": string, \|<br/>\| <br/>    "amount": number  \|<br/>\| <br/>}                     \| |
+| PUT          | { <br/> "type": string, <br/><br/> "name": string, <br/><br/> "detail": string, <br/><br/> "amount": number<br>}<br/><br/>(data has to be filled in)                                                                                                            |
+| PATCH        | { <br/>  "type": string, <br/><br/> "name": string, <br/><br/> "detail": string, <br/><br/> "amount": number<br>}<br/><br/>(partial data is OK)                                                                                                                 |
 
 ### Deploy Link
 
